@@ -5,6 +5,12 @@ using UnityEngine;
 public class DataManager : MonoBehaviour
 {
     public static DataManager INSTANCE;
+
+    [SerializeField]
+    public Camera ZoomCamera;
+    [SerializeField]
+    public Camera UICamera;
+
     [SerializeField]
     private PlayerCamera mainPlayerCamera;
     public PlayerCamera MainPlayerCamera
