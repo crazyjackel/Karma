@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
-
     public static DataManager INSTANCE;
-
     [SerializeField]
     private PlayerCamera mainPlayerCamera;
     public PlayerCamera MainPlayerCamera
