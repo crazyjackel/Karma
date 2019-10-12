@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerController : MonoBehaviour
 {
     float speed = 20;
     float jumpSpeed = 50;
     CharacterController Character;
+    private float gravSpeed = -20;
+    private float gravity = 0;
     void Start()
     {
         Character = GetComponent<CharacterController>();
@@ -16,10 +17,24 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 forwardAdjustment = speed*Input.GetAxis("Vertical") * transform.forward;
         Vector3 rightAdjustment = speed*Input.GetAxis("Horizontal") * transform.right;
-        Vector3 move = forwardAdjustment + rightAdjustment;
+        gravity += gravSpeed * Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            gravity = jumpSpeed;
+        }
+        Vector3 upAdjustment = gravity * transform.up;
+        Vector3 move = forwardAdjustment + rightAdjustment + upAdjustment;
+
         Character.Move(move*Time.deltaTime);
 
-        Vector3 jump = jumpSpeed*Input.GetAxis("Jump") * transform.up;
+
+       
+
+
+
+
+
+
 
     }
 }
