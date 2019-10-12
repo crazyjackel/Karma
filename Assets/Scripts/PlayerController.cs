@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
-    float speed = 20;
-    float jumpSpeed = 50;
-    CharacterController Character;
-    private float gravSpeed = -20;
+    public float speed = 20;
+    public float jumpSpeed = 50;
+    private CharacterController Character;
+    public float gravSpeed = -20;
     private float gravity = 0;
     void Start()
     {
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         Vector3 forwardAdjustment = speed*Input.GetAxis("Vertical") * transform.forward;
         Vector3 rightAdjustment = speed*Input.GetAxis("Horizontal") * transform.right;
         gravity += gravSpeed * Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&&Character.isGrounded)
         {
             gravity = jumpSpeed;
         }
