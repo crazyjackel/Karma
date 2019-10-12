@@ -6,6 +6,11 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager INSTANCE;
 
+    public List<Picture> Pictures;
+
+    public UnityEngine.UI.Image image;
+
+    public List<VisibleObject> knownVisibleObjects;
     [SerializeField]
     public Camera ZoomCamera;
     [SerializeField]

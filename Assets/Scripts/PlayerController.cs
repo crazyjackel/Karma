@@ -32,14 +32,5 @@ public class PlayerController : MonoBehaviour
         Vector3 move = forwardAdjustment + rightAdjustment + upAdjustment;
         Character.Move(move*Time.deltaTime);
 
-
-       
-
-
-
-
-
-
-
     }
 }
