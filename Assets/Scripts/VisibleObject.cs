@@ -14,13 +14,15 @@ public class VisibleObject : MonoBehaviour
     [SerializeField]
     public float Karma = 0;
 
-    private void Start()
+    void Start()
     {
         DataManager.INSTANCE.knownVisibleObjects.Add(this);
     }
+
     void OnBecameVisible()
     {
         visible = true;
+        Debug.Log("Became Visible");
     }
 
     private void OnBecameInvisible()

@@ -30,10 +30,6 @@ public class Boids : MonoBehaviour
             {
                 seperation += GetSeparationVector(c.transform);
             }
-            else
-            {
-                seperation += 0.5f * GetSeparationVector(c.transform);
-            }
         }
         Vector3 Direction = flockDirection.Direction + seperation + cohesion;
         Quaternion boidRot = Quaternion.FromToRotation(Vector3.forward,Direction.normalized);

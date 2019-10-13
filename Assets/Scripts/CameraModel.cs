@@ -5,6 +5,18 @@ using UnityEngine;
 public struct Picture{
     public Texture2D pic;
     public List<VisibleObject> FoundObjects;
+    float karma;
+    public float CalculateKarma()
+    {
+        karma = 0;
+        if (FoundObjects != null) { 
+        foreach(VisibleObject visible in FoundObjects)
+        {
+            karma += visible.Karma;
+        }
+        }
+        return karma;
+    }
 }
 
 public class CameraModel : MonoBehaviour
@@ -51,14 +63,12 @@ public class CameraModel : MonoBehaviour
             canTakePhoto = true;
             DataManager.INSTANCE.ZoomCamera.transform.position = DataManager.INSTANCE.MainPlayerCamera.transform.position;
             DataManager.INSTANCE.ZoomCamera.transform.rotation = DataManager.INSTANCE.MainPlayerCamera.transform.rotation;
-            DataManager.INSTANCE.ZoomCamera.enabled = true;
             DataManager.INSTANCE.ZoomCamera.fieldOfView = Mathf.Lerp(26.99147f,10,currentTime-(animTime-1));
             DataManager.INSTANCE.ZoomCamera.depth = 12;
         }
         else
         {
             canTakePhoto = false;
-            DataManager.INSTANCE.ZoomCamera.enabled = false;
             DataManager.INSTANCE.ZoomCamera.fieldOfView = 26.99147f;
             DataManager.INSTANCE.ZoomCamera.depth = -12;
         }
@@ -91,6 +101,7 @@ public class CameraModel : MonoBehaviour
     void TakePhoto()
     {
         Picture p = new Picture();
+        p.FoundObjects = new List<VisibleObject>();
         foreach (VisibleObject v in DataManager.INSTANCE.knownVisibleObjects)
         {
             if (v.visible)
@@ -102,5 +113,7 @@ public class CameraModel : MonoBehaviour
         DataManager.INSTANCE.image.enabled = true;
         Sprite mySprite = Sprite.Create(p.pic, new Rect(0.0f, 0.0f, p.pic.width, p.pic.height), new Vector2(0.5f, 0.5f), 100.0f);
         DataManager.INSTANCE.image.sprite = mySprite;
+        Debug.Log(p.CalculateKarma());
+       
     }
 }
