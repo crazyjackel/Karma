@@ -7,9 +7,11 @@ public class Boids : MonoBehaviour
 
     public float speed;
     public BoidController flockDirection;
+    private Rigidbody body;
     // Start is called before the first frame update
     void Start()
     {
+        body = this.GetComponent<Rigidbody>();
         speed += Random.Range(-3,3);
     }
 
@@ -21,7 +23,11 @@ public class Boids : MonoBehaviour
         Vector3 cohesion = Vector3.zero;
         foreach(Collider c in colliders)
         {
-            if (c.gameObject.GetComponent<Boids>() != null)
+            if (c.GetComponent<Collider>() == c)
+            {
+
+            }
+            else if (c.gameObject.GetComponent<Boids>() != null)
             {
                 seperation += GetSeparationVector(c.transform);
                 cohesion += c.transform.position;
@@ -34,7 +40,7 @@ public class Boids : MonoBehaviour
         Vector3 Direction = flockDirection.Direction + seperation + cohesion;
         Quaternion boidRot = Quaternion.FromToRotation(Vector3.forward,Direction.normalized);
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, boidRot.eulerAngles.y, 0),Time.deltaTime);
-        transform.position += new Vector3(this.transform.forward.x,0,this.transform.forward.z) * (speed * Time.deltaTime);
+        body.velocity = speed * new Vector3(this.transform.forward.x,0,this.transform.forward.z);
         BoidController.atBounds(this, flockDirection);
     }
 
