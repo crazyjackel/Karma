@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public struct Picture{
     public Texture2D pic;
@@ -22,7 +23,8 @@ public struct Picture{
 public class CameraModel : MonoBehaviour
 {
     public Vector3[] path;
-    
+
+    public PostProcessProfile profile;
     public float animTime;
     public float speed;
     public bool canTakePhoto = false;
