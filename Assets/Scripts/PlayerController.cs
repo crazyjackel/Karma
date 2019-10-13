@@ -47,16 +47,20 @@ public class PlayerController : MonoBehaviour
                     m.color = Color.white;
                     m.mainTexture = DataManager.INSTANCE.pic.pic;
                     index = 0;
-                    if (DataManager.INSTANCE.pic.CalculateKarma() > 10){
+                    if (DataManager.INSTANCE.pic.CalculateKarma() > 100){
                         index++;
                     }
-                    if(DataManager.INSTANCE.pic.CalculateKarma() > 100)
+                    if(DataManager.INSTANCE.pic.CalculateKarma() > 200)
                     {
                         index++;
+                        InteractableObject.computer.Interact(1);
                     }
-                    if (DataManager.INSTANCE.pic.FoundObjects.Count > 10)
+                    foreach (VisibleObject v in DataManager.INSTANCE.pic.FoundObjects)
                     {
-                        index++;
+                        if (v.specialTag == EventEnum.COOLHAT)
+                        {
+                            index++;
+                        }
                     }
                     InteractableObject.computer.Interact(index);
                    

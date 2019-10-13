@@ -48,4 +48,5 @@ public class Boids : MonoBehaviour
         return diff * (scaler / diffLen);
     }
 
+    
 }

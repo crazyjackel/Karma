@@ -44,7 +44,7 @@ public class ShirtColorChanger : MonoBehaviour
         shirt(new Color(r,g,b,1));
     }
 
-    public static void ChangeAllShirtsToColor(string readme)
+    public void ChangeAllShirtsToColor(string readme)
     {
         foreach(ShirtColorChanger shirt in allshirts)
         {

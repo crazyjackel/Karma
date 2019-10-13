@@ -34,4 +34,13 @@ public class VisibleObject : MonoBehaviour
     {
         Karma = karmaIn;
     }
+    public void Enable()
+    {
+        this.GetComponent<MeshRenderer>().enabled = true;
+        MeshRenderer[] meshes = this.GetComponentsInChildren<MeshRenderer>();
+        foreach(MeshRenderer m in meshes)
+        {
+            m.enabled = true;
+        }
+    }
 }
