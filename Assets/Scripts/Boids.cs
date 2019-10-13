@@ -21,15 +21,18 @@ public class Boids : MonoBehaviour
         Vector3 cohesion = Vector3.zero;
         foreach(Collider c in colliders)
         {
-            if(c.gameObject.GetComponent<Boids>() != null)
+            if (c.gameObject.GetComponent<Boids>() != null)
             {
                 seperation += GetSeparationVector(c.transform);
                 cohesion += c.transform.position;
             }
-            if(c.gameObject.GetComponent<PlayerController>()!= null)
+            else if (c.gameObject.GetComponent<PlayerController>() != null)
             {
                 seperation += GetSeparationVector(c.transform);
-                cohesion += c.transform.position;
+            }
+            else
+            {
+                seperation += 0.5f * GetSeparationVector(c.transform);
             }
         }
         Vector3 Direction = flockDirection.Direction + seperation + cohesion;
