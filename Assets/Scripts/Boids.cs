@@ -38,9 +38,7 @@ public class Boids : MonoBehaviour
             }
         }
         Vector3 Direction = flockDirection.Direction + seperation + cohesion;
-        Quaternion boidRot = Quaternion.FromToRotation(Vector3.forward,Direction.normalized);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, boidRot.eulerAngles.y, 0),Time.deltaTime);
-        body.velocity = speed * new Vector3(this.transform.forward.x,0,this.transform.forward.z);
+        body.velocity = speed * new Vector3(Direction.x,0,Direction.z);
         BoidController.atBounds(this, flockDirection);
     }
 
