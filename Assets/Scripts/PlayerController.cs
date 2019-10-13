@@ -31,6 +31,19 @@ public class PlayerController : MonoBehaviour
         //Enables movement as a result of the following attributes
         Vector3 move = forwardAdjustment + rightAdjustment + upAdjustment;
         Character.Move(move*Time.deltaTime);
-
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, 10))
+            {
+                if (hit.collider.gameObject.GetComponent<InteractableObject>()!=null)
+                {
+                    GameObject computer = hit.collider.gameObject;
+                    MeshRenderer compMesh = computer.GetComponent<MeshRenderer>();
+                    Material m = compMesh.materials[1];
+                    m.mainTexture = DataManager.INSTANCE.pic.pic;
+                }
+            }
+        }
     }
 }

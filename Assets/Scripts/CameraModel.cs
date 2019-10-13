@@ -126,6 +126,7 @@ public class CameraModel : MonoBehaviour
         Sprite mySprite = Sprite.Create(p.pic, new Rect(0.0f, 0.0f, p.pic.width, p.pic.height), new Vector2(0.5f, 0.5f), 100.0f);
         DataManager.INSTANCE.image.sprite = mySprite;
         Debug.Log(p.CalculateKarma());
+        DataManager.INSTANCE.pic = p;
        
     }
 }

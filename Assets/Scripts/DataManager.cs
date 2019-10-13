@@ -6,7 +6,7 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager INSTANCE;
 
-    public List<Picture> Pictures;
+    public Picture pic;
 
     public UnityEngine.UI.Image image;
 
