@@ -6,12 +6,10 @@ public class ShirtColorChanger : MonoBehaviour
 {
     public MeshRenderer meshRenderer;
 
-    public Color shirtColor;
-
     private void Start()
     {
         meshRenderer = gameObject.GetComponent<MeshRenderer>();
-        changeShirtColor();
+        changeShirtColor("0,0,0");
     }
     public void changeShirtColor(Color min, Color max)
     {
@@ -23,7 +21,7 @@ public class ShirtColorChanger : MonoBehaviour
         Color newColor = new Color(Random.Range(Red.x,Red.y),Random.Range(Green.x,Green.y),Random.Range(Blue.x,Blue.y),1);
     }
 
-    public void changeShirtColor(Color c)
+    public void shirt(Color c)
     {
         Material[] mats = new Material[2];
         mats[1] = meshRenderer.materials[1];
@@ -33,8 +31,15 @@ public class ShirtColorChanger : MonoBehaviour
         meshRenderer.sharedMaterials = mats;
     }
 
-    public void changeShirtColor()
+
+    public void changeShirtColor(string readme)
     {
-        changeShirtColor(shirtColor);
+        string[] parsing = readme.Split(',');
+        float r = float.Parse(parsing[0]);
+        float g = float.Parse(parsing[1]);
+        float b = float.Parse(parsing[2]);
+
+        shirt(new Color(r,g,b,1));
     }
+
 }
