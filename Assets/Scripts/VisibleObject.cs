@@ -29,4 +29,9 @@ public class VisibleObject : MonoBehaviour
     {
         visible = false;
     }
+
+    public void SetKarma(int karmaIn)
+    {
+        Karma = karmaIn;
+    }
 }

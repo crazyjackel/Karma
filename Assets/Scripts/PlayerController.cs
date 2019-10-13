@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
+    private int index = 0;
     public float speed = 20;
     public float jumpSpeed = 50;
     private CharacterController Character;
@@ -45,6 +46,20 @@ public class PlayerController : MonoBehaviour
                     Material m = compMesh.materials[1];
                     m.color = Color.white;
                     m.mainTexture = DataManager.INSTANCE.pic.pic;
+                    index = 0;
+                    if (DataManager.INSTANCE.pic.CalculateKarma() > 10){
+                        index++;
+                    }
+                    if(DataManager.INSTANCE.pic.CalculateKarma() > 100)
+                    {
+                        index++;
+                    }
+                    if (DataManager.INSTANCE.pic.FoundObjects.Count > 10)
+                    {
+                        index++;
+                    }
+                    InteractableObject.computer.Interact(index);
+                   
                 }
             }
         }

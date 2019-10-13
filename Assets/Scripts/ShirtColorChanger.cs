@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class ShirtColorChanger : MonoBehaviour
 {
+    public static List<ShirtColorChanger> allshirts = new List<ShirtColorChanger>();
     public MeshRenderer meshRenderer;
 
     private void Start()
     {
+        allshirts.Add(this);
         meshRenderer = gameObject.GetComponent<MeshRenderer>();
         changeShirtColor("0,0,0");
     }
@@ -40,6 +42,14 @@ public class ShirtColorChanger : MonoBehaviour
         float b = float.Parse(parsing[2]);
 
         shirt(new Color(r,g,b,1));
+    }
+
+    public static void ChangeAllShirtsToColor(string readme)
+    {
+        foreach(ShirtColorChanger shirt in allshirts)
+        {
+            shirt.changeShirtColor(readme);
+        }
     }
 
 }
