@@ -45,4 +45,5 @@ public class Boids : MonoBehaviour
         var scaler = Mathf.Clamp01(1.0f - diffLen / 20);
         return diff * (scaler / diffLen);
     }
+
 }
