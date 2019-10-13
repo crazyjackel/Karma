@@ -325,7 +325,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 42799896}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &42799896 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -935,6 +934,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &184274724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184274719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &192382859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1080,7 +1093,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 192382862}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &192382871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192382860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &193679149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1310,7 +1336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 234490413}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &234490413 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -1462,7 +1487,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 276292666}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &276292675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276292664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &277287908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1697,7 +1735,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 280681790}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &280681799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280681788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &283887481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -1733,6 +1784,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &283887486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283887481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &289968026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1878,7 +1943,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 289968029}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &289968038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289968027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &325790936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -1914,6 +1992,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &325790941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325790936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &327738131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2086,7 +2178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 331815440}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &331815440 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -2265,6 +2356,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &352782046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352782041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &354035918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9482bd4816a37314889ec3e188644052,
@@ -2319,6 +2424,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &381043372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381043367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &413816076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2548,7 +2667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 452925548}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &452925548 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -2574,7 +2692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 455923171}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &455923171 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -3015,6 +3132,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &502913747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502913742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &510059114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3669,7 +3800,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 538771039}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &538771048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538771037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &566763684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3695,7 +3839,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.830017
+      value: -24.69
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -3815,7 +3959,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 566763687}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &566763696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566763685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &569265133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3961,7 +4118,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 569265136}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &569265145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569265134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &573965541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4203,7 +4373,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 620367233}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &620367233 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -4355,7 +4524,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 622977957}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &622977966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622977955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &627723739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4501,7 +4683,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 627723742}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &627723751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627723740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &633694515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -4537,6 +4732,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &633694520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633694515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &651687799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4552,7 +4761,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.9
+      value: -16.15
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -4682,7 +4891,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 651687802}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &651687811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651687800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,6 +5188,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &734472221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &756530616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5001,6 +5237,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &756530621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756530616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &757271445 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4695666576454475813, guid: 77e8c6ff6f9579e4bbf2b8dc68759ac5,
@@ -5181,7 +5431,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 776447751}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &776447760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776447749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &795224064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5217,6 +5480,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &795224069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795224064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &798529045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5236,7 +5513,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 798529049}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &798529049 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5893,6 +6169,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &930110207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930110202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &949178392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5912,7 +6202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 949178396}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &949178396 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -5954,6 +6243,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &958436838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958436833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &958837881
 GameObject:
   m_ObjectHideFlags: 0
@@ -6055,7 +6358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 960817282}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &960817282 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -6460,7 +6762,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 977513391}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &977513400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977513389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &996954639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -6496,6 +6811,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &996954644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996954639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1025476620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6641,7 +6970,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1025476623}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1025476632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025476621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1032997966
 GameObject:
   m_ObjectHideFlags: 0
@@ -6768,6 +7110,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1033133117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033133112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1051750164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -6803,6 +7159,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1051750169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051750164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1061734874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7037,7 +7407,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1067873534}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1067873543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067873532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1076932200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7057,7 +7440,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1076932204}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1076932204 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7329,7 +7711,82 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1148282880}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1148282889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148282878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
+--- !u!1 &1167555630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1957343029055355086, guid: 49b5cee8e3eb0ad45b334455c850340e,
+    type: 3}
+  m_PrefabInstance: {fileID: 469245188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1167555634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167555630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1f51abfe604cf489358342d06cd80a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactEvent:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2021835121}
+        m_MethodName: changeShirtColor
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0,0,1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  index: 0
 --- !u!1 &1211327474 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4941980915137974691, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7365,6 +7822,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1211327479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211327474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1222722329 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7384,7 +7855,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1222722333}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1222722333 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7524,7 +7994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1243107197}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1243107197 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7641,7 +8110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1250607553}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1250607553 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -7683,6 +8151,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1341471972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341471967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1360532211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7936,7 +8418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1371702851}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1371702851 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -8043,7 +8524,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -9.78
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -8862,6 +9343,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1426381551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426381546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1426582019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9007,7 +9502,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1426582022}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1426582031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426582020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1437696769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9153,7 +9661,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1437696772}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1437696781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437696770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1440316592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -9173,7 +9694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1440316596}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1440316596 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -9658,6 +10178,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1510264859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510264854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1513932464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -9677,7 +10211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1513932468}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1513932468 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -9829,7 +10362,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1567942982}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1567942991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567942980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1569848631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9928,7 +10474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1572972367}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1572972367 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -10086,7 +10631,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1590006485}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1590006485 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -10128,6 +10672,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1592133687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592133682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1595979145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10391,7 +10949,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.17
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -10521,7 +11079,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1615321410}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1615321419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615321408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1619781713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10770,7 +11341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1636485762}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1636485762 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -10918,7 +11488,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.43
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -11098,7 +11668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1728598818}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1728598818 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -11547,6 +12116,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1742117821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742117816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &1742441523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11949,7 +12532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1829554721}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1829554721 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -11971,7 +12553,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.06
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -12161,6 +12743,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1911302880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911302875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1913951314
 GameObject:
   m_ObjectHideFlags: 0
@@ -12781,7 +13377,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1967927192}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1967927201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967927190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1988701487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9482bd4816a37314889ec3e188644052,
@@ -12822,7 +13431,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -9.3
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -12952,7 +13561,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1993195658}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1993195667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993195656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &1996334866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4014005118718810142, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -12972,7 +13594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1996334870}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1996334870 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -13023,7 +13644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2021835123}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &2021835123 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3425069360946326722, guid: 1dd8285b36d118d499081cce1af891a7,
@@ -13181,7 +13801,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2034442394}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2034442403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034442392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1001 &2035969922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13596,6 +14229,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2056930010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056930005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &2107485388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -492420421572216379, guid: 77e8c6ff6f9579e4bbf2b8dc68759ac5,
@@ -13646,7 +14293,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.85
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -13776,7 +14423,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 2113811951}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2113811960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113811949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f843e9ce1d426ae4ba41637680971564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialTag: 0
+  Karma: 10
 --- !u!1 &2124997109
 GameObject:
   m_ObjectHideFlags: 0
@@ -14231,7 +14891,7 @@ PrefabInstance:
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -6.32
       objectReference: {fileID: 0}
     - target: {fileID: 4941980915137974693, guid: 1dd8285b36d118d499081cce1af891a7,
         type: 3}
@@ -14316,4 +14976,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 7718390322670616138}
-  shirtColor: {r: 0, g: 0, b: 0, a: 0}
