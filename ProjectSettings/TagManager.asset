@@ -15,8 +15,8 @@ TagManager:
   - 
   - UIElement
   - boidIgnore
-  - 
-  - 
+  - player
+  - ignoreplayer
   - 
   - 
   - 
