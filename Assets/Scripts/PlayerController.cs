@@ -33,14 +33,17 @@ public class PlayerController : MonoBehaviour
         Character.Move(move*Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("E");
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, 10))
+            if (Physics.Raycast(transform.position, DataManager.INSTANCE.MainPlayerCamera.transform.forward, out hit, Mathf.Infinity))
             {
+                Debug.Log(hit.collider.name);
                 if (hit.collider.gameObject.GetComponent<InteractableObject>()!=null)
                 {
                     GameObject computer = hit.collider.gameObject;
                     MeshRenderer compMesh = computer.GetComponent<MeshRenderer>();
                     Material m = compMesh.materials[1];
+                    m.color = Color.white;
                     m.mainTexture = DataManager.INSTANCE.pic.pic;
                 }
             }
