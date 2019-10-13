@@ -25,6 +25,8 @@ public class CameraModel : MonoBehaviour
     public Vector3[] path;
 
     public PostProcessProfile profile;
+    public PostProcessProfile postprofile;
+    public PostProcessVolume volumne;
     public float animTime;
     public float speed;
     public bool canTakePhoto = false;
@@ -58,6 +60,14 @@ public class CameraModel : MonoBehaviour
     }
     void Update()
     {
+        if (canTakePhoto)
+        {
+            volumne.profile = profile;
+        }
+        else
+        {
+            volumne.profile = postprofile;
+        }
         
         //Checks if currenTime is greater than the animations time - 1
         if (currentTime > animTime-1)
