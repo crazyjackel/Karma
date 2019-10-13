@@ -17,27 +17,33 @@ public class Boids : MonoBehaviour
     void Update()
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position,20);
-        Vector3 avoidDirection = Vector3.zero;
+        Vector3 seperation = Vector3.zero;
+        Vector3 cohesion = Vector3.zero;
         foreach(Collider c in colliders)
         {
             if(c.gameObject.GetComponent<Boids>() != null)
             {
-                Vector3 dif = (this.transform.position-c.transform.position);
-                dif = dif / (1+dif.magnitude * dif.magnitude);
-                avoidDirection += dif;
+                seperation += GetSeparationVector(c.transform);
+                cohesion += c.transform.position;
             }
             if(c.gameObject.GetComponent<PlayerController>()!= null)
             {
-                Vector3 dif = (this.transform.position - c.transform.position);
-                dif = dif / (1+dif.magnitude * dif.magnitude);
-                avoidDirection += 10*dif;
+                seperation += GetSeparationVector(c.transform);
+                cohesion += c.transform.position;
             }
         }
-        avoidDirection = avoidDirection.normalized + flockDirection.Direction;
-        avoidDirection = avoidDirection.normalized;
-        avoidDirection = new Vector3(avoidDirection.x, 0, avoidDirection.z);
-        transform.position += avoidDirection * Time.deltaTime*speed;
-
+        Vector3 Direction = flockDirection.Direction + seperation + cohesion;
+        Quaternion boidRot = Quaternion.FromToRotation(Vector3.forward,Direction.normalized);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, boidRot.eulerAngles.y, 0),Time.deltaTime);
+        transform.position += new Vector3(this.transform.forward.x,0,this.transform.forward.z) * (speed * Time.deltaTime);
         BoidController.atBounds(this, flockDirection);
+    }
+
+    Vector3 GetSeparationVector(Transform target)
+    {
+        var diff = transform.position - target.transform.position;
+        var diffLen = diff.magnitude;
+        var scaler = Mathf.Clamp01(1.0f - diffLen / 20);
+        return diff * (scaler / diffLen);
     }
 }

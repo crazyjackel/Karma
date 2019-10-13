@@ -9,6 +9,10 @@ public class BoidController : MonoBehaviour
     public Vector3 start = Vector3.forward*300;
     public Vector3 end = Vector3.back*300;
 
+    private void Update()
+    {
+
+    }
     public static void atBounds(Boids boid, BoidController boidController)
     {
         if (boidController.end.z > boid.transform.position.z)
