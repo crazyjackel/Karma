@@ -12,7 +12,6 @@ public class Boids : MonoBehaviour
     void Start()
     {
         body = this.GetComponent<Rigidbody>();
-        speed += Random.Range(-3,3);
     }
 
     // Update is called once per frame
@@ -30,14 +29,13 @@ public class Boids : MonoBehaviour
             else if (c.gameObject.GetComponent<Boids>() != null)
             {
                 seperation += GetSeparationVector(c.transform);
-                cohesion += c.transform.position;
             }
             else if (c.gameObject.GetComponent<PlayerController>() != null)
             {
                 seperation += GetSeparationVector(c.transform);
             }
         }
-        Vector3 Direction = flockDirection.Direction + seperation + cohesion;
+        Vector3 Direction = flockDirection.Direction + seperation;
         body.velocity = speed * new Vector3(Direction.x,0,Direction.z);
         BoidController.atBounds(this, flockDirection);
     }

@@ -5,11 +5,12 @@ using UnityEngine.Events;
 
 public class InteractableObject : MonoBehaviour
 {
-    public UnityEvent[] interactEvent;
-
+    public UnityEvent[][] interactEvent;
+    int index;
     public void Interact()
     {
-        foreach(UnityEvent unityEvent in interactEvent)
+        index = Mathf.Clamp(index, 0, interactEvent.Length - 1);
+        foreach(UnityEvent unityEvent in interactEvent[index])
         {
             unityEvent.Invoke();
         }
